@@ -8,10 +8,14 @@ The template for integration or e2e testing with Playwright
 
 ## Get Started
 
-Required Node
-Install dependencies
+### Prerequisite
 
-```bash
+- Node.js v16.17.0 or upper.
+- Yarn package manager
+
+### Install dependencies
+
+```shell
   yarn
 ```
 
@@ -19,12 +23,20 @@ Install dependencies
 
 ### Execute test
 
-```bash
+```shell
   yarn test
 ```
 
 ### Execute test with breakpoint on headed browser
 
-```bash
+```shell
   yarn debug
+```
+
+## Contribution
+
+Please verify the changes code before commit and create a merge request by below
+
+```shell
+  yarn verify
 ```

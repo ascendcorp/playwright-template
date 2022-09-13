@@ -22,6 +22,7 @@
     "test": "playwright test",
     "debug": "playwright test --debug",
     "eslint": "eslint .",
-    "prettier": "prettier ."
+    "prettier": "prettier .",
+    "verify": "yarn eslint && yarn prettier"
   }
 }
