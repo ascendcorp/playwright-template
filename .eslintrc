@@ -9,9 +9,10 @@
   "rules": {
     "no-redeclare": "error",
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": "warn",
+    "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "error",
     "import/order": [
       "error",
       {
@@ -25,7 +26,6 @@
         "newlines-between": "always"
       }
     ],
-    "import/export": "warn"
+    "import/export": "error"
   }
-  
 }

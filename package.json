@@ -20,6 +20,7 @@
   },
   "scripts": {
     "test": "playwright test",
-    "debug": "playwright test --debug"
+    "debug": "playwright test --debug",
+    "eslint": "eslint ."
   }
 }
