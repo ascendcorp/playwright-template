@@ -21,6 +21,7 @@
   "scripts": {
     "test": "playwright test",
     "debug": "playwright test --debug",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "prettier": "prettier ."
   }
 }
